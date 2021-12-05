@@ -2,7 +2,7 @@
     "name": "visitor-badge-node",
     "routes": [{
             "src": "/",
-            "dest": "/api/badge.js?page_id=visitor-badge-node"
+            "dest": "/api/badge.js?page_id=visitor-badge-node-airinghost"
         },
         {
             "src": "/page/(?<page_id>[^/]*)",
