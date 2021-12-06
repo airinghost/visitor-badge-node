@@ -17,7 +17,7 @@ const renderError = (message, secondaryMessage = 'Opps!') => {
  */
 const renderBadge = (name = '浏览量', string = '1', color = 'blue') => {
   const format = {
-    label: name,
+    label: '浏览量',
     message: String(string),
     color: color,
   }
