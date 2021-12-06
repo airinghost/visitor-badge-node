@@ -15,7 +15,7 @@ const renderError = (message, secondaryMessage = 'Opps!') => {
  * @param {string} string
  * @param {string} color
  */
-const renderBadge = (name = 'visitors', string = '1', color = 'blue') => {
+const renderBadge = (name = '浏览量', string = '1', color = 'blue') => {
   const format = {
     label: name,
     message: String(string),
